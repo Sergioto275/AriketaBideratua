@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-interface Pertsona{
+export interface Pertsona{
   id:string;
   izena:string;
   abizena:string;  
@@ -29,7 +29,6 @@ export class HomeService {
     },
   ];
 
-  private izena:HomeService=new HomeService();
   constructor() {}
 
 }
